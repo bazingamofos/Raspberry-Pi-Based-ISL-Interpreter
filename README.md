@@ -12,7 +12,7 @@ Our primary objective is to create a device that translates sign language gestur
 ## Features
 1. **Real-time Interpretation:** Uses advanced image processing and machine learning algorithms to interpret sign language gestures.
 2. **Text and Speech Output:** Converts interpreted gestures into text displayed on an LCD and vocalized through text-to-speech functionality.
-3. **User-Friendly Interface:** Ensures accessibility for both individuals with hearing impairments and those unfamiliar with sign language.
+3. **User-Friendly Interface:** Ensures accessibility for individuals with hearing or visual impairments and those unfamiliar with sign language.
 
 
 ## Schematic
