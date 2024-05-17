@@ -43,8 +43,16 @@ Our primary objective is to create a device that translates sign language gestur
 ### User Interface
 * Installation of necessary libraries for I2C LCD interfacing.
 * Interfacing the LCD with Raspberry Pi to visually display text output.
-* Installation of necessary libraries ( for text-to-speech (TTS) functionality.
+* Installation of necessary libraries for text-to-speech (TTS) functionality.
 * Writing code to convert text output into speech, enabling users to hear the interpreted signs through wired earphones connected to the audio jack.
+
+## Required Libraries
+* OpenCV
+* Mediapipe
+* Matplotlib
+* Numpy
+* TensorFlow
+* sklearn
 
 ## Credits 
 This project includes code from Swaroop Srisailam's `Continuous-Indian-Sign-Language-Recognition`.
