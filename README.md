@@ -56,6 +56,11 @@ Our primary objective is to create a device that translates sign language gestur
 * TensorFlow
 * sklearn
 
+## Contributors
+[Yash Bhavnani](https://github.com/yashbhavnani)
+[Samruddhi Patil](https://github.com/Samruddhi248)
+Sakshi Rathod
+
 ## Credits 
 This project includes code from Swaroop Srisailam's `Continuous-Indian-Sign-Language-Recognition`.
 
