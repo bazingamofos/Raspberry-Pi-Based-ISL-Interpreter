@@ -25,22 +25,22 @@ Our primary objective is to create a device that translates sign language gestur
 
 ## Implementation
 
-### Raspberry Pi Setup
+### 1] Raspberry Pi Setup
 * Initial setup of Raspberry Pi 4B and installation of a suitable environment for code implementation.
 
-### Modelling
+### 2] Modelling
 * Creation of a dataset for Indian sign language gestures.
 * Importing necessary libraries for data processing.
 * Specifying the path for storing images.
 * Designing the model structure, utilizing a pose-based deep learning model with LSTM for sequential data processing.
 * Training the model and evaluating its performance on test data, achieving an accuracy rate of 85-90%.
 
-### Testing
+### 3] Testing
 * Importing required libraries for implementation of Mediapipe.
 * Implementation of pose estimation using Mediapipe for real-time gesture recognition.
 * Integration of the trained recognition model with the system.
 
-### User Interface
+### 4] User Interface
 * Installation of necessary libraries for I2C LCD interfacing.
 * Interfacing the LCD with Raspberry Pi to visually display text output.
 * Installation of necessary libraries for text-to-speech (TTS) functionality.
