@@ -1,5 +1,5 @@
 # SignScribe
-Raspberry Pi 4B Based Sign Language Interpreter
+A Raspberry Pi 4B Based Sign Language Interpreter
 
 > This project was developed for the laboratory session in the Electronics in Service to Society Lab for the academic year 2023-24, as part of the coursework requirement.
 
