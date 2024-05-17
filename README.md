@@ -10,9 +10,9 @@ Welcome to the repository for Sign Scribe, a project dedicated to breaking down 
 Our primary objective is to create a device that translates sign language gestures into text and speech, promoting inclusivity and accessibility. This project aligns with the United Nations Sustainable Development Goals (SDGs), specifically targeting SDG 4 (Quality Education) and SDG 10 (Reduced Inequalities).
 
 ## Features
-Real-time Interpretation: Uses advanced image processing and machine learning algorithms to interpret sign language gestures.
-Text and Speech Output: Converts interpreted gestures into text displayed on an LCD and vocalized through text-to-speech functionality.
-User-Friendly Interface: Ensures accessibility for both individuals with hearing impairments and those unfamiliar with sign language.
+* <u>Real-time Interpretation:</u> Uses advanced image processing and machine learning algorithms to interpret sign language gestures.
+* **Text and Speech Output:** Converts interpreted gestures into text displayed on an LCD and vocalized through text-to-speech functionality.
+* **User-Friendly Interface:** Ensures accessibility for both individuals with hearing impairments and those unfamiliar with sign language.
 
 
 ## Schematic
