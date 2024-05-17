@@ -3,12 +3,17 @@ Raspberry Pi 4B Based Sign Language Interpreter
 
 > This project was developed for the laboratory session in the Electronics in Service to Society Lab for the academic year 2023-24, as part of the coursework requirement.
 
-## Aim
-The primary objective of the ***SignScribe*** project is to develop a Sign Language Interpreter using a Raspberry Pi 4B with a USB camera. The project aims to contribute to the United Nations Sustainable Development Goals (SDGs), specifically targeting **SDG 4 - Quality Education** and **SDG 10 - Reduced Inequalities**.
+## Overview
+Welcome to the repository for Sign Scribe, a project dedicated to breaking down communication barriers for the deaf and hard-of-hearing community. This project leverages the Raspberry Pi 4B and a USB camera to develop a real-time Sign Language Interpreter.
 
-By leveraging the capabilities of the Raspberry Pi 4B and a quality web camera, the SignScribe team seeks to create a technological solution that can interpret and translate sign language gestures in real-time, to text as well as speech.
+## Objectives
+Our primary objective is to create a device that translates sign language gestures into text and speech, promoting inclusivity and accessibility. This project aligns with the United Nations Sustainable Development Goals (SDGs), specifically targeting SDG 4 (Quality Education) and SDG 10 (Reduced Inequalities).
 
-Through the development of ***SignScribe***, the team aspires to empower individuals with hearing and visual impairments and foster a more inclusive society where communication is accessible to all.
+## Features
+Real-time Interpretation: Uses advanced image processing and machine learning algorithms to interpret sign language gestures.
+Text and Speech Output: Converts interpreted gestures into text displayed on an LCD and vocalized through text-to-speech functionality.
+User-Friendly Interface: Ensures accessibility for both individuals with hearing impairments and those unfamiliar with sign language.
+
 
 ## Schematic
 ![image](https://github.com/bazingamofos/SignScribe/assets/69231405/0f55ea17-704f-4c3f-b0aa-a775d13f491f)
