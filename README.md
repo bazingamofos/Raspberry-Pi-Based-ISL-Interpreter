@@ -4,7 +4,9 @@ Raspberry Pi 4B Based Sign Language Interpreter
 > This project was developed for the laboratory session in the Electronics in Service to Society Lab for the academic year 2023-24, as part of the coursework requirement.
 
 ## Overview
-Welcome to the repository for Sign Scribe, a project dedicated to breaking down communication barriers for the deaf and hard-of-hearing community. This project leverages the Raspberry Pi 4B and a USB camera to develop a real-time Sign Language Interpreter.
+Welcome to the repository for ***SignScribe***, a project dedicated to breaking down communication barriers for the deaf and hard-of-hearing community. This project leverages the Raspberry Pi 4B and a USB camera to develop a real-time Sign Language Interpreter. ***SignScribe*** utilizes a pose-based deep learning model designed to recognize 10 Indian Sign Language (ISL) gestures through the Mediapipe framework for pose estimation. Tested in real-time, the model demonstrates promising effectiveness in identifying dynamic signs.
+
+
 
 ## Objectives
 Our primary objective is to create a device that translates sign language gestures into text and speech, promoting inclusivity and accessibility. This project aligns with the United Nations Sustainable Development Goals (SDGs), specifically targeting SDG 4 (Quality Education) and SDG 10 (Reduced Inequalities).
