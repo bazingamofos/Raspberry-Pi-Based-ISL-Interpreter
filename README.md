@@ -1,6 +1,10 @@
 # SignScribe
 A Raspberry Pi 4B Based Sign Language Interpreter
 
+
+https://github.com/bazingamofos/SignScribe/assets/69231405/faaf779a-ead8-4283-8bef-f3236c94f637
+
+
 > This project was developed for the laboratory session in the Electronics in Service to Society Lab for the academic year 2023-24, as part of the coursework requirement.
 
 ## Overview
