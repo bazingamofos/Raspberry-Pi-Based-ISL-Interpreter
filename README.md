@@ -1,16 +1,12 @@
 # SignScribe
 A Raspberry Pi 4B Based Sign Language Interpreter
 
-
 https://github.com/bazingamofos/SignScribe/assets/69231405/faaf779a-ead8-4283-8bef-f3236c94f637
-
 
 > This project was developed for the laboratory session in the Electronics in Service to Society Lab for the academic year 2023-24, as part of the coursework requirement.
 
 ## Overview
-Welcome to the repository for ***SignScribe***, a project dedicated to breaking down communication barriers for the deaf and hard-of-hearing community. This project leverages the Raspberry Pi 4B and a USB camera to develop a real-time Sign Language Interpreter. ***SignScribe*** utilizes a pose-based deep learning model designed to recognize 10 Indian Sign Language (ISL) gestures through the Mediapipe framework for pose estimation. Tested in real-time, the model demonstrates promising effectiveness in identifying dynamic signs.
-
-
+Welcome to the repository for ***SignScribe***, a project dedicated to breaking down communication barriers for the deaf and hard-of-hearing community. This project leverages the Raspberry Pi 4B and a USB camera to develop a real-time Sign Language Interpreter. ***SignScribe*** utilizes a pose-based deep learning model designed to recognize 10 Indian Sign Language (ISL) gestures through the Mediapipe framework for pose estimation. Tested in real-time, the model demonstrates promising effectiveness in identifying continuous signs.
 
 ## Objectives
 Our primary objective is to create a device that translates sign language gestures into text and speech, promoting inclusivity and accessibility. This project aligns with the United Nations Sustainable Development Goals (SDGs), specifically targeting SDG 4 (Quality Education) and SDG 10 (Reduced Inequalities).
@@ -19,7 +15,6 @@ Our primary objective is to create a device that translates sign language gestur
 1. **Real-time Interpretation:** Uses advanced image processing and machine learning algorithms to interpret sign language gestures.
 2. **Text and Speech Output:** Converts interpreted gestures into text displayed on an LCD and vocalized through text-to-speech functionality.
 3. **User-Friendly Interface:** Ensures accessibility for individuals with hearing or visual impairments and those unfamiliar with sign language.
-
 
 ## Schematic
 ![image](https://github.com/bazingamofos/SignScribe/assets/69231405/0f55ea17-704f-4c3f-b0aa-a775d13f491f)
@@ -31,26 +26,46 @@ Our primary objective is to create a device that translates sign language gestur
 
 ## Implementation
 
-### 1] Raspberry Pi Setup
-* Initial setup of Raspberry Pi 4B and installation of a suitable environment for code implementation.
+<details>
 
-### 2] Modelling
+<summary> 1] Raspberry Pi Setup </summary>
+
+* Initial setup of Raspberry Pi 4B and installation of a suitable environment for code im
+
+</details>
+
+<details>
+
+<summary> 2] Modelling </summary>
+
 * Creation of a dataset for Indian sign language gestures.
 * Importing necessary libraries for data processing.
 * Specifying the path for storing images.
 * Designing the model structure, utilizing a pose-based deep learning model with LSTM for sequential data processing.
 * Training the model and evaluating its performance on test data, achieving an accuracy rate of 85-90%.
 
-### 3] Testing
+</details>
+
+<details>
+  
+<summary> 3] Testing </summary>
+
 * Importing required libraries for implementation of Mediapipe.
 * Implementation of pose estimation using Mediapipe for real-time gesture recognition.
 * Integration of the trained recognition model with the system.
+  
+</details>
 
-### 4] User Interface
+<details>
+
+<summary> 4] User Interface </summary>
+
 * Installation of necessary libraries for I2C LCD interfacing.
 * Interfacing the LCD with Raspberry Pi to visually display text output.
 * Installation of necessary libraries for text-to-speech (TTS) functionality.
 * Writing code to convert text output into speech, enabling users to hear the interpreted signs through wired earphones connected to the audio jack.
+  
+</details>
 
 ## Required Libraries
 * OpenCV
@@ -67,6 +82,6 @@ Our primary objective is to create a device that translates sign language gestur
 - Sakshi Rathod
 
 ## Credits 
-This project includes code from Swaroop Srisailam's `Continuous-Indian-Sign-Language-Recognition`.
+This project includes code from Swaroop Srisailam's `Continuous-Indian-Sign-Language-Recognition` repository.
 
 
